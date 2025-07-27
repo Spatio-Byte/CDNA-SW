@@ -1,0 +1,55 @@
+/* 
+  style des cards, des liens, et de la navbar en générale
+*/
+/*-- card --*/
+.card {
+  border: 1px solid #d4d4d4;
+  background-color: #d4d4d4;
+  color: #000000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  margin: 20px;
+  padding: 10px;
+  max-width: 25%;
+  border-radius: 8px;
+  align-self: center; /* pour que la hauteur soit dictée par le contenu */
+}
+.card:hover {
+  transform: scale(1.01);
+  background-color: #ffffff;
+  border-color: #000000;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+/*-- liens --*/
+a{
+  transition: all ease-in-out 0.6s;
+}
+a:hover {
+  color: hsl(204, 100%, 69%);
+}
+/*-- navbar --*/
+nav {
+  background-color: hsl(0, 0%, 100%);
+}
+.CDNA {
+  color: hsl(209, 100%, 80%);
+  transition: all ease-in-out 0.6s;
+  border-radius: 3px;
+}
+.CDNA:hover {
+  color: hsl(209, 100%, 60%);
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/*-- main --*/
+main {
+  background-color: hsl(0, 0%, 100%);
+}
+
+#mission {
+  padding-top: 100px;
+}
+
+.footer-cpr {
+  justify-content: center;
+}
