@@ -1,7 +1,7 @@
 {
   "name": "cdna",
   "private": true,
-  "homepage" : "https://Spatio-Byte.github.io/CDNA-SW",
+  "homepage" : "https://spatio-byte.github.io/CDNA-SW",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
