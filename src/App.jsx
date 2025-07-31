@@ -31,7 +31,7 @@ export default function CDNAHomePage() {
           <div className="flex items-center">
             <h1 className="text-2xl font-bold CDNA">CDNA</h1>
             <img 
-              src="/2.png" 
+              src="/CDNA-SW/assets/2.png" 
               alt="logo cdna" 
               className="h-10 w-auto ml-2 rounded-full"
             />
